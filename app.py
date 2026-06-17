@@ -70,9 +70,9 @@ elif menu == "WMS & Inventario (Logística)":
         st.info("Escanee el código QR del producto para registrar merma.")
         st.data_editor(pd.DataFrame({
             'Producto': ['Queso Fresco', 'Yogurt 1L'],
-            'Stock Sistema': ,  # He añadido cantidades de ejemplo
-            'Físico': ,         # He añadido cantidades de ejemplo
-            'Diferencia': [-2, 0]       # He añadido la diferencia calculada
+            'Stock Sistema': ,  # Cantidades de ejemplo añadidas
+            'Físico': ,         # Cantidades de ejemplo añadidas
+            'Diferencia': [-2, 0]       # Diferencia calculada añadida
         }))
 
     with tab2:
