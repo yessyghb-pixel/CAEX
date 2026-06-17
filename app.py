@@ -66,13 +66,13 @@ elif menu == "WMS & Inventario (Logística)":
     tab1, tab2 = st.tabs(["Control de Stock", "Préstamos de Activos (Javas/Pallets)"])
     
     with tab1:
-        st.subheader("Inventario de Productos Dañados [14]")
+        st.subheader("Inventario de Productos Dañados")
         st.info("Escanee el código QR del producto para registrar merma.")
         st.data_editor(pd.DataFrame({
-            'Producto': ['Queso', 'Yogurt'],
-            'Stock Sistema': ,
-            'Físico': ,
-            'Diferencia': [0, -2]
+            'Producto': ['Queso Fresco', 'Yogurt 1L'],
+            'Stock Sistema': ,  # He añadido cantidades de ejemplo
+            'Físico': ,         # He añadido cantidades de ejemplo
+            'Diferencia': [-2, 0]       # He añadido la diferencia calculada
         }))
 
     with tab2:
