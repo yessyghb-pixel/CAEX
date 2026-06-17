@@ -52,12 +52,12 @@ elif menu == "Ventas & SFA (Asistente 1)":
         if st.button("Sincronizar Pedido"):
             st.success(f"Pedido de {cliente} enviado a Picking y registrado en la Nube.")
 
-    st.subheader("Estado de Rutas actual [12]")
+    st.subheader("Estado de Rutas actual")
     st.table(pd.DataFrame({
         'Unidad': ['VAN', 'GACELA', 'FURGON'],
-        'Pedidos': [4, 8, 13],
+        'Pedidos': [2-4],  # He añadido números de ejemplo aquí
         'Estado': ['En Ruta', 'Cargando', 'Finalizado'],
-        'Monto': 
+        'Monto': [2500.0, 1800.0, 1200.0]  # He añadido montos de ejemplo aquí
     }))
 
 # 3. WMS & INVENTARIO (Control de Javas y Productos [14, 15])
