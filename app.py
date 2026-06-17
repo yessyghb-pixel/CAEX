@@ -1,6 +1,3 @@
- Prototipo (Sistema de Gestión CAEX & Fresco)
-Este código implementa la visualización de los procesos de los Asistentes 1 y 2, Logística y Tesorería
-.
 import streamlit as st
 import pandas as pd
 import plotly.express as px
